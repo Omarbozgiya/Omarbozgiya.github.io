@@ -1,0 +1,101 @@
+/* Reset بسيط */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #222;
+}
+
+/* الهيدر */
+header {
+    background: #1a73e8;
+    padding: 18px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* القسم الرئيسي */
+.hero {
+    background: white;
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 95%;
+    max-width: 1200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #1a73e8;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #125dc0;
+}
+
+/* البطاقات */
+.cards {
+    margin: 30px auto;
+    width: 95%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* الفوتر */
+footer {
+    background: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
